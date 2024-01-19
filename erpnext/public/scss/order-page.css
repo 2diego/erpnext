@@ -1,0 +1,104 @@
+@media screen and (min-width: 567px) {
+  #page-order .main-column .page-content-wrapper .breadcrumb-container {
+    padding-left: var(--padding-sm);
+  }
+}
+#page-order .main-column .page-content-wrapper .container.my-4 {
+  background-color: var(--fg-color);
+}
+@media screen and (min-width: 567px) {
+  #page-order .main-column .page-content-wrapper .container.my-4 {
+    padding: 1.25rem 1.5rem;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--card-shadow);
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .indicator-container {
+    padding-bottom: 0.8rem;
+  }
+}
+
+.order-items {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--gray-700);
+}
+@media screen and (max-width: 567px) {
+  .order-items {
+    align-items: flex-start !important;
+  }
+}
+@media screen and (max-width: 567px) {
+  .order-items .col-2 {
+    flex: auto;
+    max-width: 28%;
+  }
+}
+.order-items .order-item-name {
+  font-size: var(--text-base);
+  font-weight: 500;
+}
+.order-items .btn:focus,
+.order-items .btn:hover {
+  background-color: var(--control-bg);
+}
+@media screen and (max-width: 567px) {
+  .order-items .col-6 {
+    max-width: 100%;
+  }
+}
+.order-items .col-6.order-item-name {
+  font-size: var(--text-base);
+}
+
+.item-grand-total {
+  font-size: var(--text-base);
+}
+
+.list-item-name,
+.item-total,
+.order-container,
+.order-qty {
+  font-size: var(--text-md);
+}
+
+@media screen and (max-width: 567px) {
+  .d-s-n {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 567px) {
+  .d-l-n {
+    display: none;
+  }
+}
+
+.border-btm {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.order-taxes {
+  display: flex;
+}
+@media screen and (min-width: 567px) {
+  .order-taxes {
+    justify-content: flex-end;
+  }
+}
+.order-taxes .col-4 {
+  padding-right: 0;
+}
+.order-taxes .col-4 .col-8 {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media screen and (max-width: 567px) {
+  .order-taxes .col-4 {
+    padding-left: 0;
+    flex: auto;
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=order-page.css.map */

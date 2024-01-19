@@ -1,0 +1,19 @@
+.call-popup a:hover {
+  text-decoration: underline;
+}
+.call-popup .for-description {
+  max-height: 250px;
+  overflow: scroll;
+}
+
+audio {
+  height: 40px;
+  width: 100%;
+  max-width: 500px;
+  background-color: var(--control-bg);
+  border-radius: var(--border-radius-sm);
+  outline: none;
+}
+audio-webkit-media-controls-panel {
+  background: var(--control-bg);
+}/*# sourceMappingURL=call_popup.css.map */
